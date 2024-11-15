@@ -1,0 +1,182 @@
+main{
+    background-color: lightblue;
+}
+header{
+    background-color: black;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo{
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-agregar{
+    margin-top: 4%;
+}
+
+.formulario{
+    border: solid 2px #333333;
+    border-radius: 4%;
+    padding: 1%;
+    background-color: white;
+}
+
+.botones-card{
+    display: flex;
+    justify-content: center ;   
+    
+}
+.espaciobotones{
+
+    margin: 2%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.eliminar-btn{
+    background-color: red;
+    
+}
+.editar-btn{
+    background-color:green;
+    
+}
+.eliminar-btn .link {
+    color: white;
+}
+.botones-card-detalles{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.agregar-btn{
+    background-color: blue;
+    
+}
+.linkadd{
+    color: white;
+    text-decoration: none;
+}
+
+.eliminar-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.confirm-btn{
+    color:white;
+}
+
+.confirmar-btns{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra-nav{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.linkadd {
+    text-decoration: none;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    color: #888;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+
+
+
+.jumbotron {
+    background-color: #f8f9fa; 
+    padding: 3rem 2rem; 
+    border-radius: 0.3rem; 
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+    color: #6c757d; 
+}
+
+.btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+
+
+.row h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.row p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+
+.contenedor-home{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-home {
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+}
+
+.contenedor-contacto {
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
